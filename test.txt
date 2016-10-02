@@ -1,0 +1,3 @@
+This is my first file to practice committing my work to GitHub. 
+
+Stay tuned for my full site!
