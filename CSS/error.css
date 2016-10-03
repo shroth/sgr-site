@@ -1,0 +1,11 @@
+/*style sheet for the error page*/
+
+body {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hs {
+    margin: 0 auto;
+}
