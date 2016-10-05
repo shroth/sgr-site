@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Sharon Roth | UX &amp; Front End Designer </title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+  <!--  <link rel="stylesheet" href="css/responsive.css"> -->
+    
+      <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+      
+    <!-- Other CSS -->
+    <link rel="stylesheet" href="CSS/main.css">
+      <script>  
+          var shiftWindow = function() { scrollBy(0, -90) };
+          window.addEventListener("hashchange", shiftWindow);
+          function load() { if (window.location.hash) shiftWindow(); }
+        </script>
+    </head>
+  <body data-spy="scroll" data-target="#myScrollSpy" data-offset="90">
+      <!-- NAV
+        put in the symbol instead of Navbar, update the fonts used, update the colors, put in the links to the pages and scrollspy -->
+      <nav class="navbar navbar-fixed-top navbar-custom bg-faded" id="myScrollSpy">
+        <div class="container" id="homepage">
+          <a class="navbar-brand" href="#top"><img alt="SR logo" class="img-fluid" src="img/R%20circle%20original.png" style="width:25%"></a>
+          <ul class="nav navbar-nav pull-xs-right nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link toplinks" href="#Portfolio">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link toplinks" href="#About_Me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link toplinks" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!--JumboTron color of button hover, visited, focus-->
+      <div class="jumbotron jumbotron-fluid jsize img-responsive center">
+          <div class="container text-center">
+            <h1 class="display-3 jumbotext">Sharon Roth</h1>
+            <h2 class="display-4 jumbotext">UX Designer &#38 Front End Developer</h2>
+            <a class="btn btn-primary btn-lg m-x-auto d-block cta" href="#Portfolio" role="button" style="border:none;">Tour My Portfolio</a>
+          </div>
+    </div> 
+      
+      <!--Portfolio -->
+      <div id="Portfolio" class="container">
+
+      <h4 class="section_title"><span>Portfolio</span></h4>
+      
+    <!--<div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="#">
+              <img src="img/Hold_Image.jpg" alt="Project1" class="img-fluid proj_pic">
+              <p class="project_text">Project 1 description.</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/Hold_Image.jpg" alt="Project 2" class="img-fluid proj_pic">
+              <p class="project_text">Project 2 description.</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/Hold_Image.jpg" alt="Project 3" class="img-fluid proj_pic">
+              <p class="project_text">Project 3 description.</p>
+            </a>
+          </li>
+          </ul>
+        </section>
+        </div> -->
+    <div class="row">
+        <div class="card card-inverse col-m-6 pull-sm-left">
+          <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project1">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Project1</h5>
+            
+          </div>
+        </div>
+        <div class="card card-inverse col-m-6">
+          <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project2">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Project2</h5>
+          </div>
+        </div>
+        <div class="card card-inverse col-m-6">
+          <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project3">
+          <div class="card-img-overlay bottom-align-text vbottom">
+            <h5 class="card-title">Project3</h5>
+          </div>
+        </div>
+      </div> 
+          
+  </div>
+      
+      <!--About Me Remove images and have text 100% width -->
+      <br>
+      
+      <div id="About_Me" class="container">
+
+      <h4 class="section_title"><span>About Me</span></h4>
+      <br>
+          
+          <div>
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/grad%20cap.png" alt="Graduation Cap" align="left" valign="middle" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              </span>  
+          </div>
+          
+<br>
+        <div>
+              
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/gear-png-7.png" alt="Gears" align="left" valign="middle" vspace="5" hspace="5"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              </span>  
+          </div>
+          
+  <br>
+        <div>
+              
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/fi-clipboard-pencil.png" alt="Notepad" align="left" valign="middle" vspace="5" hspace="5"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              </span>  
+          </div>
+        
+<!--
+      <div class="history">
+        <div class="primarycol">
+          <img alt="Graduation Cap" src="img/grad%20cap.png" class="aboutpic image-fluid">
+        </div>
+        <div class="secondarycol about_text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.
+            </p>
+        </div>
+      </div>
+          
+    <div id="work">
+        <div class="primarycol">
+            <img alt="Working Gears" src="img/gear-png-7.png" class="aboutpic image-fluid">
+        </div>
+        <div class="secondarycol about_text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.
+        </p>
+        </div>
+  </div>
+          
+    <div class="class">
+        <div class="primarycol">
+          <img alt="Notepad" src="img/fi-clipboard-pencil.png" class="aboutpic image-fluid">
+        </div>
+        <div class="secondarycol about_text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.
+        </p>
+        </div>
+  </div>
+-->
+          
+          <section>
+              <p class="Skills">Areas of Expertise</p>
+          <ul class="checkmark">
+              <li>User Experience</li>
+              <li>User Research</li>
+              <li>User Interaction</li>
+              <li>Usability Testing</li>
+              <li>Responsive Websites</li>
+              <li>Visual Design</li>
+              <li>Data Analytics</li>
+              <li>Front End Development</li>
+          </ul>
+          </section>
+          
+          
+          <section>
+              <p class="Skills text-xs-left" id="tech">Key Technologies</p>
+          <ul class="checkmark">
+              <li>Photoshop</li>
+              <li>Inivision</li>
+              <li>Sketch</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>JQuery</li>
+              <li>Tableau</li>
+              <li>VBA</li>
+          </ul>
+          </section>
+          
+          
+      </div>
+      
+      <br>
+      <!--Contact -->
+      
+     <div id="Contact" class="container">
+
+        <h4 class="section_title"><span>Contact</span></h4>
+      <br>    
+      </div>
+    
+      <!--Footer Have icons move underneath on mobile-->
+    
+      <footer id="footer_main">
+        <div class="container">
+        <p id="footer_text">
+          &copy; 2016 Sharon Gail Roth all rights reserved.
+        </p>
+
+          <a href="http://instagram.com/shroth14"><img src="img/insta%20vector.png" alt="Instagram" class="social-icon"></a>
+          <a href="https://github.com/shroth/sgr-site"><img src="img/github%20vector.png" alt="GitHub" class="social-icon"></a>
+          <a href="http://linkedin.com/rothsharon"><img src="img/linkedin%20vector.png" alt="LinkedIn" class="social-icon"></a>
+        
+        </div>
+      </footer>
+      
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+      <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
