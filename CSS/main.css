@@ -4,12 +4,18 @@
 
 html {
     font-size: 1rem;
-    
 }
 
 body {
   position: relative;
 }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+}
+
+
 
 /*NAV*/
 .navbar-custom {
@@ -25,7 +31,7 @@ body {
 }
 
 a.nav-link.toplinks.active {
-    background-color: rgb(205, 166, 151);
+    background-color: rgba(205, 166, 151, 0.5);
     border: none;
 }
 
@@ -49,6 +55,7 @@ a.nav-link.toplinks.active {
 
 .cta {
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
     width: 40%;
     padding: 20px 0;
     margin-top: 50px;
@@ -182,6 +189,7 @@ ul.checkmark {
 ul.checkmark li {
     float: left;
     width: 50%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Skills {
@@ -189,13 +197,27 @@ ul.checkmark li {
     margin-bottom: 0;
     margin-left:0;
     text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
-#tech {
-    margin-top: 10rem; /**only for mobile **/
+ #tech {
+    margin-top: 8rem; /**only for mobile **/
+    }
+
+.area_skills{
+    margin: 0 10%;
 }
 
 /*Contact*/
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*Footer*/
 
@@ -217,8 +239,8 @@ ul.checkmark li {
     display: inline-block;
     float: right;
     margin: 20px 20px;
-    width: 50px;
-    height: 50px;
+    max-width: 40px;
+    max-height: 40px;
     overflow: auto;
 }
 

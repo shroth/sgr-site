@@ -1,0 +1,98 @@
+@media (max-width: 450px){
+    .area_skills{
+        margin: 0 1%;
+        font-size: 80%;
+    }
+    
+     #tech {
+        margin-top: 24rem;
+    }
+    
+    ul.checkmark li {
+    float: left;
+    width: 100%;
+    }
+    
+}
+
+@media (max-width: 556px) {
+    #SR_logo {
+        display: none;
+    }
+    
+    .jumbotext, .cta {
+        font-size: 175%;    
+    }
+    
+    .card {
+    float: left;
+    width: 95%;
+    margin: 2.5%;
+    }
+
+    .area_skills{
+        margin: 0 2%;
+        font-size: 90%;
+    }
+    
+     #tech {
+        margin-top: 10rem;
+    }
+    
+     #social {
+       width: 90%
+    }
+    
+    
+    
+}
+
+@media (max-width: 619px) {
+    .area_skills{
+        margin: 0 2%;
+        font-size: 95%;
+    }
+     #tech {
+        margin-top: 9rem;
+        margin-left: 0;
+    }
+    
+    #footer_text {
+    font-size: .7rem;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    padding: 40px 0 0 0;
+        width: 100%
+}
+
+    #social {
+        width: 80%;
+    }
+    
+    .social-icon {
+    display: inline-block;
+    float: right;
+    margin: 10px 20px;
+    max-width: 50px;
+    max-height: 50px;
+    overflow: auto;
+}
+
+    
+}
+
+
+@media (min-width: 1024px) {}
+
+p{
+    max-width: 960px;
+}
+
+#About_Me {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+}
