@@ -1,0 +1,103 @@
+
+
+/*JumboTron for each project */
+
+.jsize1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hold_Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.jsize2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hold_Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.jsize3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hold_Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#downarrow {
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 400%;
+}
+
+
+/*Overview Box*/
+
+#overviewbox {
+    padding: 20px;
+    border: rgb(167, 139, 128);
+    border-radius: 10px;
+    border-style: solid;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.overview_titles{
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+}
+
+
+/*Planning and Process*/
+
+.picl {
+    width: 45%; 
+    float: left; 
+    margin-right: 5%;    
+}
+
+.picr {
+    width: 45%; 
+    float: right; 
+    margin-left: 5%; 
+    
+}
+
+.picfinal {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*Final Project*/
+
+
+/*responsive for the projects*/
+
+@media (max-width: 556px) {
+    #downarrow {
+        color: white;
+        text-align: center;
+        vertical-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 200%;
+    }
+    
+    nav ul {
+        margin: auto;
+    }
+    
+    .picl, .picr {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+}
