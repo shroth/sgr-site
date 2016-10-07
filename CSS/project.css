@@ -83,6 +83,12 @@
 /*responsive for the projects*/
 
 @media (max-width: 556px) {
+    .jsize1 {
+    padding-top: 40%;
+    padding-bottom: 20%;   
+    }
+    
+    
     #downarrow {
         color: white;
         text-align: center;
@@ -90,9 +96,9 @@
         font-family: 'Playfair Display', serif;
         font-size: 200%;
     }
-    
-    nav ul {
-        margin: auto;
+
+    #overviewbox {
+        width: 98%;
     }
     
     .picl, .picr {

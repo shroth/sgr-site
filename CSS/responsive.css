@@ -1,4 +1,5 @@
 @media (max-width: 450px){
+    
     .area_skills{
         margin: 0 1%;
         font-size: 80%;
@@ -19,9 +20,31 @@
     #SR_logo {
         display: none;
     }
+ 
+    .nav-tabs .nav-link {
+        padding: 0 5px;
+        font-size: 90%;
+    }
+    
+    .nav-tabs {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-tabs .nav-item {
+        display: inline-block;
+        float: none;
+        margin-left: 0;
+    }
+    
+    .jsize {
+    padding-top: 40%;
+    padding-bottom: 20%;   
+    }
     
     .jumbotext, .cta {
-        font-size: 175%;    
+        font-size: 150%;    
     }
     
     .card {
@@ -42,7 +65,6 @@
      #social {
        width: 90%
     }
-    
     
     
 }
@@ -68,18 +90,32 @@
 }
 
     #social {
-        width: 80%;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
     }
+    
+    #footer_icons li img{
+        float: none;
+    }
+    
+    #footer_icons li {
+        display: inline-block;
+        padding: 5px; 
+        list-style: none;
+    }
+    
     
     .social-icon {
     display: inline-block;
-    float: right;
+    float: none;
     margin: 10px 20px;
     max-width: 50px;
     max-height: 50px;
     overflow: auto;
 }
 
+    
     
 }
 
