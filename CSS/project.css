@@ -3,7 +3,7 @@
 /*JumboTron for each project */
 
 .jsize1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hold_Image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/workstation.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +12,7 @@
 }
 
 .jsize2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hold_Image.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/LiquidLab/LiquidLab%20Cover.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,21 +58,9 @@
 
 /*Planning and Process*/
 
-.picl {
-    width: 45%; 
-    float: left; 
-    margin-right: 5%;    
-}
-
-.picr {
-    width: 45%; 
-    float: right; 
-    margin-left: 5%; 
-    
-}
-
 .picfinal {
     width: 100%;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -83,6 +71,11 @@
 /*responsive for the projects*/
 
 @media (max-width: 556px) {
+    
+    #SR_logo {
+    display: none;
+    }
+    
     .jsize1 {
     padding-top: 40%;
     padding-bottom: 20%;   
@@ -101,9 +94,12 @@
         width: 98%;
     }
     
-    .picl, .picr {
-        width: 100%;
-        float: none;
-        margin: auto;
+    
+}
+
+@media (max-width: 543px) {
+    .pic2 {
+        margin-top: 1rem;
     }
 }
+

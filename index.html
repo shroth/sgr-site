@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title> Sharon Roth | UX &amp; Front End Designer </title>
+      
     <link rel="stylesheet" href="CSS/normalize.css">
-   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700" rel="stylesheet">
-  <!--  <link rel="stylesheet" href="css/responsive.css"> -->
-    
-      <!-- Bootstrap CSS -->
+      
+       <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-      
     <!-- Other CSS -->
     <link rel="stylesheet" href="CSS/main.css">
       <link rel="stylesheet" href="CSS/responsive.css">
@@ -26,7 +24,7 @@
       <!-- NAV -->
       <nav class="navbar navbar-fixed-top navbar-custom bg-faded" id="myScrollSpy">
         <div class="container" id="homepage">
-          <a class="navbar-brand" href="#top"><img alt="SR logo" class="img-fluid" src="img/R%20circle%20original.png" style="width:25%;" id="SR_logo"></a> <!--"img/R%20circle%20original.png" -->
+          <a class="navbar-brand" href="#top"><img alt="SR logo" class="img-fluid" src="img/Initials.png" id="SR_logo"></a>
           <ul class="nav navbar-nav pull-xs-right nav nav-tabs" role="tablist">
             <li class="nav-item">  
               <a class="nav-link toplinks" href="#Portfolio">Portfolio<span class="sr-only">(current)</span></a>
@@ -55,32 +53,32 @@
 
       <h4 class="section_title"><span>Portfolio</span></h4>
       
-        <div class="row">
-            <a href="project1.html">
-                <div class="card card-inverse col-m-6 pull-sm-left">
-                  <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project1">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Project1</h5> 
-                  </div>
+          <div class="row">
+                <div class=" col-xs-12 col-md-6 col-xl-4 m-t-1 projcard">
+                    <a href="portfolio_site.html">
+                        <div style="background-image : url('img/workstation.jpeg'); background-size : cover; background-position: center center; background-repeat: none; height: 300px;border-radius: 10px;">
+                            <h3 style="position : absolute; bottom : 0px; left: 30px; ">Portfolio Website</h3>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <a href="project2.html">
-                <div class="card card-inverse col-m-6">
-                  <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project2">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Project2</h5>
-                  </div>
-                </div>
-            </a>
-            <a href="project3.html">
-                <div class="card card-inverse col-m-6">
-                  <img class="card-img img-fluid" src="img/Hold_Image.jpg" alt="Project3">
-                  <div class="card-img-overlay bottom-align-text">
-                    <h5 class="card-title">Project3</h5>
-                  </div>
-                </div>
-            </a>
-          </div> 
+              
+              <div class="col-xs-12 col-md-6 col-xl-4 m-t-1 projcard">
+                <a href="liquid_lab.html">
+                    <div style="background-image : url('img/LiquidLab/Liquid%20Full%20Cover.png'); background-size : cover; background-position: center center; background-repeat: none; height: 300px; border-radius: 10px;">
+                        <h3 style="position : absolute; bottom : 0px; left: 30px; ">LiquidLab</h3>
+                    </div>
+                </a>
+            </div>
+              
+            <div class="col-xs-12 col-md-6 col-xl-4 m-t-1 projcard">
+                <a href="">
+                    <div style="background-image : url('img/Hold_Image.jpg'); background-size : cover; background-position: center center; background-repeat: none; height: 300px; border-radius: 10px;">
+                        <h3 style="position : absolute; bottom : 0px; left: 30px; ">Proj3</h3>
+                    </div>
+                </a>
+            </div>
+              
+          </div>
           
   </div>
       
@@ -94,24 +92,36 @@
       <br>
           
           <div>
-              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/grad%20cap.png" alt="Graduation Cap" align="left" valign="middle" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/grad%20cap.png" alt="Graduation Cap" align="left" valign="middle" />My path to be a UX Designer and Front-End Developer has been unique and exciting. I earned a Bachelor of Science in Engineering studying Bioengineering and minoring in Engineering Entrepreneurship at the University of Pennsylvania. I developed the skills to work effectively as a team, learn on the job, work under pressure, and iterate until the problem is solved.
+              </p>
               </span>  
           </div>
           
 <br>
         <div>
               
-              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/gear-png-7.png" alt="Gears" align="left" valign="middle" vspace="5" hspace="5"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/gear-png-7.png" alt="Gears" align="left" valign="middle" vspace="5" hspace="5"/>Post-grad, I worked at a healthcare consulting company for two years. It was important to keep in mind the overarching goal for the client, as well as develop empathy for each stakeholder’s key concerns. By conducting in-depth interviews with users I was able to determine pain points for each party and determine an optimal solution. I also continued to hone my ability to breakdown a problem into its component parts and work with a team to develop the best solutions. I became proficient in thinking of novel ways to visually display our findings in PowerPoint, as well.</p>
               </span>  
           </div>
           
   <br>
         <div>
               
-              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/fi-clipboard-pencil.png" alt="Notepad" align="left" valign="middle" vspace="5" hspace="5"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque elementum dignissim. Nullam tristique lobortis erat, vitae fringilla eros faucibus id. Morbi a lacus elementum, lacinia nisl eu, gravida ligula. Etiam id volutpat dui, non ornare velit. Vestibulum tempor, nisl non pharetra semper, lectus odio egestas nulla, eget aliquet sapien elit eu diam. Phasellus ac vehicula nisl, ultricies iaculis ipsum. Vivamus sit amet malesuada justo, a blandit est. Nulla facilisi. Proin semper leo risus, in pulvinar tellus rhoncus quis. Nullam iaculis semper porta. Morbi luctus mauris eros, id consectetur massa fermentum nec. Maecenas auctor porttitor aliquam. Mauris rhoncus ligula sed nunc pretium scelerisque. Mauris condimentum orci eget tincidunt lobortis.</p>
+              <span class="text1 secondarycol"><p><img class="img-valign image-fluid aboutpic" src="img/fi-clipboard-pencil.png" alt="Notepad" align="left" valign="middle" vspace="5" hspace="5"/>My true passion rests in crafting intuitive, aesthetically pleasing, and effective user experiences. I delved into UX and took classes in Visual Design and Front-End Development. I used these skills to design and code this site myself. To deepen my skillset within UX, I attended the User Experience Design Immersive at General Assembly. There, I was able to practice the central competencies as well as expand my expertise.
+              </p>
               </span>  
           </div>
-        
+          
+  <br>
+        <div>
+              
+              <span class="text1 secondarycol"><p class="lead">These experiences have taught me to be a creative quick thinker, problem solver, and develop empathy for multiple groups.
+              </p>
+              </span>  
+          </div>
+    
+          <br>
+          <br>
 
           <div class="area_skills">
           <section>
@@ -221,8 +231,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-    <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
-    <script src="jquery-2.1.0.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

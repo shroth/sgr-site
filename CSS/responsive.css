@@ -17,8 +17,14 @@
 }
 
 @media (max-width: 556px) {
+
     #SR_logo {
-        display: none;
+        width: 20px;
+    }
+    
+    a.navbar-brand{
+        margin-right: 0;
+        display: inline;
     }
  
     .nav-tabs .nav-link {
