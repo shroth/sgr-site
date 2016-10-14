@@ -1,3 +1,11 @@
+@media (max-width: 340px){
+    .nav-tabs .nav-link {
+        padding: 0 3px;
+        font-size: 75%;
+    }
+    
+}
+
 @media (max-width: 450px){
     
     .area_skills{
@@ -19,7 +27,7 @@
 @media (max-width: 556px) {
 
     #SR_logo {
-        width: 20px;
+        display: none;
     }
     
     a.navbar-brand{
@@ -29,7 +37,7 @@
  
     .nav-tabs .nav-link {
         padding: 0 5px;
-        font-size: 90%;
+        font-size: 80%;
     }
     
     .nav-tabs {
@@ -41,7 +49,7 @@
     .nav-tabs .nav-item {
         display: inline-block;
         float: none;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
     
     .jsize {
@@ -71,7 +79,6 @@
      #social {
        width: 90%
     }
-    
     
 }
 
@@ -108,20 +115,9 @@
     #footer_icons li {
         display: inline-block;
         padding: 10px; 
-        margin: auto 20px;
+        margin: auto 10px;
         list-style: none;
     }
-    
-    
-    .social-icon {
-    display: inline-block;
-    float: none;
-    margin: 10px 20px;
-    max-width: 50px;
-    max-height: 50px;
-    overflow: auto;
-}
-
     
     
 }

@@ -65,7 +65,7 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 /*JUMBOTRON*/
 
 .jsize {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/workstation.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/workstation-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
