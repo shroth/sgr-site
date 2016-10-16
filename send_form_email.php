@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "sgr@sharongailroth.com";
+    $email_to = "sgr@sharongailroth.com"; //where i want message sent to
  
     $email_subject = "New message";
  

@@ -14,11 +14,7 @@
     <!-- Other CSS -->
     <link rel="stylesheet" href="CSS/main.css">
       <link rel="stylesheet" href="CSS/responsive.css">
-      <script>  
-          var shiftWindow = function() { scrollBy(0, -90) };
-          window.addEventListener("hashchange", shiftWindow);
-          function load() { if (window.location.hash) shiftWindow(); }
-        </script>
+      
       
       <!--email verification -->
       <meta name="google-site-verification" content="TN9TA1qX2gi8QDE5rH-Q7tSZ4cglio1JNJgo1Py3OC4" />
@@ -47,7 +43,7 @@
           <div class="container text-center">
             <h1 class="display-3 jumbotext">Sharon Roth</h1>
             <h2 class="display-4 jumbotext">UX Designer &#38 Front End Developer</h2>
-            <a class="btn btn-primary btn-lg m-x-auto d-block cta" href="#Portfolio" role="button" style="border:none;">Tour My Portfolio</a>
+            <a class="btn btn-primary btn-lg m-x-auto d-block cta" href="#Portfolio" id="index_cta" role="button" style="border:none;">Tour My Portfolio</a>
           </div>
     </div> 
       
@@ -176,7 +172,7 @@
          
      <div id="form-messages"></div>
          
-         <form name="contactform" method="POST" action="send_form_email.php"> <!--id="ajax-contact" method="post" action="mailer.php"> current option from http://www.freecontactform.com/email_form.php-->
+         <form name="contactform" method="POST" action=https://formspree.io/sgr@sharongailroth.com> <!-- from https://formspree.io/-->
           <div class="form-group row field">
             <label for="name" class="col-sm-2 col-form-label">Name:</label>
             <div class="col-sm-6 col-lg-4">
@@ -186,7 +182,7 @@
            <div class="form-group row field">
             <label for="email" class="col-sm-2 col-form-label">Email:</label>
             <div class="col-sm-6 col-lg-4">
-              <input type="email" class="form-control" id="email" placeholder="youremail@example.com" name="email" required>
+              <input type="email" class="form-control" id="email" placeholder="youremail@example.com" name="_replyto" required>
             </div>
           </div>
            <div class="form-group row field">
@@ -198,6 +194,7 @@
              <div class="field">
                 <input type="submit" class="btn btn-primary d-block m-x-auto send" value="Send Message">
              </div>
+             <input type="hidden" name="_next" value="thankyou.html" />
         </form>
          
       </div>
@@ -231,11 +228,14 @@
         </div>
       </footer>
       
+       <!--sets the script to adjust for clicking to just the section from another page -->
+     <script src="nav-scroll.js">    </script>
+      
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+
   </body>
 </html>
 

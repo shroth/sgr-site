@@ -230,4 +230,34 @@ label {
 */
 
 
+/* Thank You Form Submitted */
+.jsize_t {
+    background: white;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.jumbotext_t{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.cta_t {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 300px;
+   /* width: 20%; min-width: 100px; */
+    padding: 20px 0;
+    margin-top: 50px;
+    
+    background: rgb(214,235,231);
+    color: black; 
+}
+
+.cta_t:hover, cta_t:focus {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
+}
+
 
