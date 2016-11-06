@@ -13,9 +13,9 @@
         font-size: 80%;
     }
     
-     #tech {
+    /* #tech {
         margin-top: 24rem;
-    }
+    } */
     
     ul.checkmark li {
     float: left;
@@ -72,9 +72,9 @@
         font-size: 90%;
     }
     
-     #tech {
+    /* #tech {
         margin-top: 10rem;
-    }
+    }*/
     
      #social {
        width: 90%
@@ -87,10 +87,10 @@
         margin: 0 2%;
         font-size: 95%;
     }
-     #tech {
+     /*#tech {
         margin-top: 9rem;
         margin-left: 0;
-    }
+    } */
     
     #footer_text {
     font-size: .7rem;

@@ -20,7 +20,7 @@
         <div class="container" id="homepage">
           <a class="navbar-brand" href="index.html"><img alt="SR logo" class="img-fluid" src="img/Initials.png" id="SR_logo"></a>
           <ul class="nav navbar-nav pull-xs-right nav nav-tabs" role="tablist">
-            <li class="nav-item homelink">
+            <li class="nav-item">
               <a class="nav-link toplinks" href="index.html#Portfolio">Home</a>
             </li>
             <li class="nav-item">
@@ -63,6 +63,7 @@
               <ul>
                   <li>Completed the site within a time-constraint of only two weeks</li> 
                   <li>Coded a flexible layout to allow for future projects to be added</li>
+                  <li>Account for fixed header when linking within and between pages</li>
               </ul>
               
           <h6 class="overview_titles">Demonstrated Skills</h6>
@@ -111,11 +112,23 @@
             </div>
 
             <div class="col-xs-12 col-lg-10">
-                <p>Once the mock-ups were drawn and typography selected, I dived into coding. I began by templating the pages with image place holders and lorem ipsum. I leveraged Bootstrap for efficiency, but added many of my own customizations. Before I inserted my actual content, I added some additional media queries so that my site would be responsive. For example, I coded for images to take up more space on mobile, adjusted font sizes, and adjusted the navigation bar. On my portfolio pages (such as this), I removed my logo from the top left, and instead inserted a home tab on the mobile viewport. This makes it obvious and easy for mobile users to return to the main page. </p>
+                <p>Once the mock-ups were drawn and typography selected, I dived into coding. I began by templating the pages with image place holders and lorem ipsum. I leveraged Bootstrap for efficiency, but added many of my own customizations. </p>
+                <br>
+                <p> 
+                Before I inserted my actual content, I added some additional media queries so that my site would be responsive. For example, I coded for images to take up more space on mobile, adjusted font sizes, and adjusted the navigation bar. On my portfolio pages (such as this), I removed my logo from the top left, and instead maximized navigation space for the links. This makes it obvious and easy for mobile users to return to the main page or jump to a different section on the page. </p>
             </div>  
             <div class="col-xs-12">
                 <img src="img/Media%20Query%20Example.png" class="img-fluid m-x-auto d-block" style="max-width: 400px; width: 100%;">
             </div>
+            
+            <div class="col-x-12 col-lg-10">
+                <p>The final challenge was accounting for the fixed header. When linking to sections on the same page or on a different page, the fixed header requires a data offset. I wrote a script to call upon for all of my html pages which adjusts the scroll on the page. A few lines of the JavaScript script are below.</p>
+            </div>
+            
+            <div class="col-xs-12">
+                <img src="img/JS%20ex.png" class="img-fluid m-x-auto d-block" style="max-width: 800px; width: 100%;">
+            </div>
+            
       
       </div>
                
@@ -133,7 +146,7 @@
       <br>
           
           
-          <p>You are viewing the final site! I was proud to accomplish my goals within my timeframe. The final site is responsive, functional, and effective at guiding a user through the site. </p>
+          <p>You are viewing the final site! I was proud to accomplish my goals within my timeframe. The final site is responsive, functional, and effective at guiding a user through the site. A view of the first version of the site is below, although as you can see I am continually updating it. </p>
           <img src="img/sgr-landing-page-101416-min.png" class="img-fluid picfinal">
       
       </div>

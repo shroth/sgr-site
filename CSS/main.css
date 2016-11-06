@@ -162,9 +162,9 @@ ul.checkmark li {
     font-weight: 700;
 }
 
- #tech {
-    margin-top: 8rem; /**only for mobile **/
-    }
+/* #tech {
+    margin-top: 8rem;
+    } */
 
 .area_skills{
     margin: 0 10%;
