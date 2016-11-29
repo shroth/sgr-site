@@ -73,6 +73,23 @@
     font-size: 150%;
 }
 
+.prototype, .prototype:visited {
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 300px;
+    min-width: 50%;
+    padding: 20px 0;
+    margin-top: 50px;
+    background: rgba(214,235,231,.4) ;
+    border-style: none;
+    border-width: 2px;
+    color: rgb(103, 95, 92);
+}
+
+.prototype:hover, .prototype:focus {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
+    color: white;
+}
 
 /*Planning and Process*/
 
@@ -85,6 +102,18 @@
 
 /*Final Project*/
 
+.med-hi {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.med-hi-imgb{
+    border-style: solid;
+    color: rgb(103, 95, 92);
+    border-width: 0.5px;
+}
 
 /*responsive for the projects*/
 

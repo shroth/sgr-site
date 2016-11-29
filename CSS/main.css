@@ -80,7 +80,7 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
     color: white;
 }
 
-.cta {
+.cta, .cta:visited {
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     width: 40%;
@@ -88,10 +88,10 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
     margin-top: 50px;
     min-width: 300px;
     background: rgb(214,235,231);
-    color: black; 
+    color: rgb(103, 95, 92);
 }
 
-.cta:hover, cta:focus {
+.cta:hover, .cta:focus {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
 }
 
@@ -99,6 +99,7 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 .section_title {
     text-align: center;
     font-family: 'Playfair Display', serif;
+    font-size: 2rem;
     color: rgb(103, 95, 92);
    width: 100%; 
    text-align: center; 
@@ -114,6 +115,11 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 
 /*Portfolio*/
 
+.projcard {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .projcard h3 {
     font-family: 'Playfair Display', serif;
     color: white;
@@ -123,15 +129,48 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
+.projcard h5 {
+    font-size: .90rem;
+}
+
 
 /*About Me*/
 
-.aboutpic {
-    width: 10%;
-    margin-right: 5%;
-    max-width: 500px;
-    max-height: 500px;
-    vertical-align: 50%;
+.resume, .resume:visited {
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 200px;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-color: rgb(214,235,231);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(164, 183, 179);
+}
+
+.resume:hover, .resume:focus {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
+    color: white;
+    border-color: rgb(164, 183, 179);
+}
+
+#resume {
+    font-size: 0.85rem;
+    text-align: center;
+    font-style: italic; 
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+}
+
+#About_Me img {
+    max-width: 300px;
+    min-width: 200px;
+    width: 100%;
+    margin: auto;
 }
 
 ul.checkmark li:before {
@@ -157,20 +196,18 @@ ul.checkmark li {
     font-size: 1.2rem;
     margin-bottom: 0;
     margin-left:0;
-    text-align: left;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
-/* #tech {
-    margin-top: 8rem;
-    } */
 
 .area_skills{
     margin: 0 10%;
 }
 
 /*Contact*/
+
 
 label {
     font-family: 'Open Sans', sans-serif;

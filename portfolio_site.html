@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="CSS/project.css">
+    <link rel="stylesheet" href="CSS/ekko-lightbox.min.css">
 
     </head>
   <body data-spy="scroll" data-target="#myScrollSpy" data-offset="90">
@@ -53,20 +54,20 @@
           <h4 class="section_title"><span>Overview</span></h4>
             <br>
           <div id="overviewbox">
-          <h6 class="overview_titles">Goals</h6>
+          <h5 class="overview_titles">Goals</h5>
               <ul>
                   <li>Design and build (code from scratch) my portfolio website from start to finish</li> 
                   <li>Utilize my skills to create a smooth user experience</li>
               </ul>
           
-          <h6 class="overview_titles">Key Challenges</h6>
+          <h5 class="overview_titles">Key Challenges</h5>
               <ul>
                   <li>Completed the site within a time-constraint of only two weeks</li> 
                   <li>Coded a flexible layout to allow for future projects to be added</li>
                   <li>Account for fixed header when linking within and between pages</li>
               </ul>
               
-          <h6 class="overview_titles">Demonstrated Skills</h6>
+          <h5 class="overview_titles">Demonstrated Skills</h5>
               <ul>
                   <li>Wireframing low-fidelity and high-fidelity mock-ups in Sketch</li> 
                   <li>Testing color schemes</li>
@@ -92,7 +93,8 @@
                 </p>
             </div>
             <div class="col-xs-12">
-                    <img src="img/Mobile%20Portrait%20lo-fi.png" class="img-fluid m-x-auto d-block" style="max-height: 400px;" >
+               <a href="img/Mobile%20Portrait%20lo-fi.png" data-toggle="lightbox"> <img src="img/Mobile%20Portrait%20lo-fi.png" class="img-fluid m-x-auto d-block" style="max-height: 400px;" >
+                </a>
             </div>
                 
             <div class="col-xs-12 col-lg-10">
@@ -100,11 +102,13 @@
             </div>
                 
             <div class="col-sm-6 col-xs-12">
-                <img src="img/Rose%20Mobile.png" class="img-fluid">
+                <a href="img/Rose%20Mobile.png" data-toggle="lightbox"><img src="img/Rose%20Mobile.png" class="img-fluid">
+                </a>
             </div>
           
             <div class="col-sm-6 col-xs-12 pic2">
-                <img src="img/Peach%20Mobile.png" class="img-fluid">
+                <a href="img/Peach%20Mobile.png" data-toggle="lightbox"><img src="img/Peach%20Mobile.png" class="img-fluid">
+                </a>
             </div>
             
             <div class="col-xs-12">
@@ -146,7 +150,7 @@
       <br>
           
           
-          <p>You are viewing the final site! I was proud to accomplish my goals within my timeframe. The final site is responsive, functional, and effective at guiding a user through the site. A view of the first version of the site is below, although as you can see I am continually updating it. </p>
+          <p>You are viewing the final site! I was proud to accomplish my goals within my timeframe. The final site is responsive, functional, and effective at guiding a user through the site. A view of the first version of the site is below, although as you can see I am continually updating it with new projects and functionality (such as lightboxes). </p>
           <img src="img/sgr-landing-page-101416-min.png" class="img-fluid picfinal">
       
       </div>
@@ -180,12 +184,19 @@
       </footer>
       
       <!--sets the script to adjust for clicking to just the section from another page -->
-     <script src="nav-scroll.js">    </script>
+     <script src="JS/nav-scroll.js">    </script>
       
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <script src="JS/ekko-lightbox.min.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+        });
+      </script>
       
   </body>
 </html>
