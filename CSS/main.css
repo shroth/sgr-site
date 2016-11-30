@@ -93,6 +93,7 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 
 .cta:hover, .cta:focus {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
+    color: white;
 }
 
 /* Section Titles */

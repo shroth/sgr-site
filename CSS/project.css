@@ -59,16 +59,11 @@
 /*Overview Box*/
 
 #overviewbox {
-    padding: 20px;
-    border: rgb(167, 139, 128);
-    border-radius: 10px;
-    border-style: solid;
-    margin: auto;
-    width: 90%;
-    max-width: 800px;
+    margin-bottom: 4rem;
 }
 
 .overview_titles{
+    margin-top: 2rem;
     font-family: 'Playfair Display', serif;
     font-size: 150%;
 }
@@ -76,11 +71,13 @@
 .prototype, .prototype:visited {
     font-size: .9rem;
     font-family: 'Open Sans', sans-serif;
+    min-width: 100px;
     max-width: 300px;
-    min-width: 50%;
     padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    background: rgba(214,235,231,.4) ;
+    background: rgba(214,235,231,.8) ;
     border-style: none;
     border-width: 2px;
     color: rgb(103, 95, 92);
@@ -93,6 +90,22 @@
 
 /*Planning and Process*/
 
+p {
+    max-width: 50rem;
+}
+
+#planning_process p.lead {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#planning_process img{
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
 .picfinal {
     width: 100%;
     max-width: 1000px;
@@ -102,6 +115,18 @@
 
 /*Final Project*/
 
+#final_proj img{
+    max-height: 400px;
+    max-width: 400px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#final_proj p.lead {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .med-hi {
     font-size: 1.2rem;
     text-align: center;
@@ -109,10 +134,14 @@
     
 }
 
-.med-hi-imgb{
+li {
+    max-width: 40rem;
+}
+
+.imgb{
     border-style: solid;
     color: rgb(103, 95, 92);
-    border-width: 0.5px;
+    border-width: 0.3px;
 }
 
 /*responsive for the projects*/
@@ -145,8 +174,9 @@
 }
 
 @media (max-width: 543px) {
-    .pic2 {
-        margin-top: 1rem;
+    #planning_process img, #final_proj img {
+		max-height: 300px;
+		max-width: 300px;
     }
 }
 
