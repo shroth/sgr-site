@@ -82,16 +82,19 @@
 
 
 .touch .nav-trigger {
-  display: block;
-  z-index: 2;
-  position: fixed;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  border-radius:50%;
+  background:rgb(214,175,132);
+  color:#789935;
+  position:fixed;
   bottom: 30px;
-  right: 5%;
-  height: 44px;
-  width: 44px;
-  border-radius: 0.25em;
-  background: rgb(214,175,132);
+  right: 15px;
+  outline:none;
+  z-index: 4;
 }
+
 .touch .nav-trigger span {
   position: absolute;
   height: 4px;
@@ -190,7 +193,7 @@
   background-color: transparent;
 }
 .touch #vertical-nav.open + .nav-trigger span {
-  background-color: rgb(103, 95, 92);
+  background-color: rgb(65, 60, 58);
 }
 
 .touch #vertical-nav.open + .nav-trigger span::before, .touch #vertical-nav.open + .nav-trigger span::after {

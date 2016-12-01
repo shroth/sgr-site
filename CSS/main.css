@@ -124,16 +124,23 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 .projcard h3 {
     font-family: 'Playfair Display', serif;
     color: white;
+	position : absolute; 
+	bottom : 30px; 
+	left: 30px; 
+}
+
+.projcard h5 {
+    font-size: .90rem;
+	position : absolute; 
+	bottom : 10px; 
+	left: 30px; 
+	color: white; 
+	font-style: italic;
 }
 
 .projcard div:focus, .projcard div:hover {
  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
-
-.projcard h5 {
-    font-size: .90rem;
-}
-
 
 /*About Me*/
 

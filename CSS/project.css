@@ -94,6 +94,21 @@ p {
     max-width: 50rem;
 }
 
+.bold {
+	font-weight: 700;
+}
+
+#planning_process h2 {
+
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: rgb(103, 95, 92);
+}
+	
+}
+
 #planning_process p.lead {
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -104,6 +119,12 @@ p {
     max-width: 400px;
     margin-top: 0;
     margin-bottom: 2rem;
+}
+
+#planning_process .big1 img{
+	
+	max-width: 100%;
+	
 }
 
 .picfinal {
@@ -127,6 +148,15 @@ p {
     margin-bottom: 2rem;
 }
 
+#final_proj h2 {
+
+    margin-top: 2rem;
+	margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: rgb(103, 95, 92);
+}
+
 .med-hi {
     font-size: 1.2rem;
     text-align: center;
@@ -143,6 +173,39 @@ li {
     color: rgb(103, 95, 92);
     border-width: 0.3px;
 }
+
+.uparrow {
+    color: rgba(103, 95, 92,1);
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+}
+
+.up_sec{
+	margin: auto;
+	margin-bottom: 30px;
+	padding-right: 20px;
+	text-align: right;
+	
+}
+
+.up {
+	font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+	color: rgba(103, 95, 92,1);
+	
+}
+
+.up_sec a:hover, .up_sec a:focus{
+	text-decoration: none;
+}
+.up:hover, .up:focus {
+	color: rgba(103, 95, 92,0.5);
+	text-decoration: none;
+	border-bottom-color: white;
+}
+
 
 /*responsive for the projects*/
 

@@ -57,7 +57,11 @@
     padding-bottom: 20%;   
     }
     
-    .jumbotext, .cta {
+	.jumbotext {
+		font-size: 2rem;
+	}
+	
+    .cta {
         font-size: 150%;    
     }
     
@@ -66,6 +70,10 @@
     width: 95%;
     margin: 2.5%;
     }
+	
+	.projcard h3{
+		bottom: 40px;
+	}
 
     .area_skills{
         margin: 0 2%;
@@ -83,7 +91,8 @@
 }
 
 @media (max-width: 619px) {
-    .area_skills{
+	
+	.area_skills{
         margin: 0 2%;
         font-size: 95%;
     }
