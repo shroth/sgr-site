@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 .jsize2 {
@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 .jsize3 {
@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 .jsize4 {
@@ -35,7 +35,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 .jsize5 {
@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 12%;
 }
 
 #downarrow {
@@ -68,26 +68,6 @@
     font-size: 150%;
 }
 
-.prototype, .prototype:visited {
-    font-size: .9rem;
-    font-family: 'Open Sans', sans-serif;
-    min-width: 100px;
-    max-width: 300px;
-    padding: 20px 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    background: rgba(214,235,231,.8) ;
-    border-style: none;
-    border-width: 2px;
-    color: rgb(103, 95, 92);
-}
-
-.prototype:hover, .prototype:focus {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgb(214,235,231);
-    color: white;
-}
-
 /*Planning and Process*/
 
 p {
@@ -103,20 +83,21 @@ p {
     margin-top: 2rem;
 	margin-bottom: 2rem;
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: rgb(103, 95, 92);
 }
 	
-}
+
 
 #planning_process p.lead {
-    margin-top: 4rem;
+	font-size: 1.5rem;
+	margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
 #planning_process img{
     max-height: 400px;
-    max-width: 400px;
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 2rem;
 }
@@ -138,7 +119,7 @@ p {
 
 #final_proj img{
     max-height: 400px;
-    max-width: 400px;
+    max-width: 100%;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -179,7 +160,7 @@ li {
     text-align: center;
     vertical-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 200%;
+    font-size: 120%;
 }
 
 .up_sec{
@@ -206,6 +187,27 @@ li {
 	border-bottom-color: white;
 }
 
+.viewproj{
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.imageholder {
+	position: relative;
+	display: block;
+}
+
+.imgplace {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background: rgba(255,255,255,0.5);
+}
 
 /*responsive for the projects*/
 
@@ -239,7 +241,13 @@ li {
 @media (max-width: 543px) {
     #planning_process img, #final_proj img {
 		max-height: 300px;
-		max-width: 300px;
+		max-width: 100%;
     }
+	
+	.imgplace{
+		
+	}
 }
+
+
 

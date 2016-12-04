@@ -4,6 +4,7 @@
   display: none;
 }
 .no-touch #vertical-nav {
+  z-index: 3;
   position: fixed;
   right: 23px;
   top: 50%;
@@ -57,7 +58,7 @@
     position: relative;
     margin-right: 10px;
     padding: .4em .5em;
-    color: rgb(103, 95, 92);
+    color: rgb(214,175,132);
     font-size: 0.875rem;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;

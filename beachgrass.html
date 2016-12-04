@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="CSS/project.css">
-    <link rel="stylesheet" href="CSS/ekko-lightbox.min.css">
+    <!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="CSS/magnific-popup.css">
       
       
 	<script src="JS/modernizr.js"></script> <!-- Modernizr -->
@@ -49,13 +50,19 @@
 				</a>
 			</li>
 			<li>
-				<a href="#planning_process" data-number="2">
+				<a href="#research" data-number="2">
 					<span class="dot"></span>
-					<span class="label">Process</span>
+					<span class="label">Research &amp; Discovery</span>
 				</a>
 			</li>
 			<li>
-				<a href="#final_proj" data-number="3">
+				<a href="#prototype" data-number="3">
+					<span class="dot"></span>
+					<span class="label">Ideation, Prototyping &amp; Testing</span>
+				</a>
+			</li>
+			<li>
+				<a href="#final_proj" data-number="4">
 					<span class="dot"></span>
 					<span class="label">Result</span>
 				</a>
@@ -72,9 +79,10 @@
           <div class="container text-center">
               <br>
             <h4 class="display-3 jumbotext">Beach Grass Shop</h4>
+			  <h5 class="jumbotext2">Redesign 100+ product ecommerce site</h5>
               <br>
               <br>
-             <a href="#overview"><h1 id="downarrow">&#x2228</h1></a> 
+             <a href="#overview"><h1 id="downarrow">&#x2228;</h1></a> 
           </div>
     </div> 
       
@@ -85,29 +93,39 @@
           <h4 class="section_title"><span>Overview</span></h4>
             <br>
           <div class="row">
-              <div class="col-xs-12 col-md-4 goals">
+              <div class="col-xs-12 col-md-6 goals">
                   <h5 class="overview_titles">Goals</h5>
                       <ul>
-                          <li>Redesign an ecommerce desktop site for a store with 100+ products</li>
+                          <li>Redesign an ecommerce desktop site for a store with <span class="bold">100+ products</span></li>
 						  <li>Complete prototype and presentation within 2-week design sprint for UXDI assignment</li>
 					  </ul>
               </div>
-              <div class="col-xs-12 col-md-4 challenges">
+              <div class="col-xs-12 col-md-6 challenges">
                   <h5 class="overview_titles">Key Challenges</h5>
                       <ul>
-						  <li>Configure site map and information architecture for existing products to match user expectations</li>
-                          <li>Designing to meet both the user and the business goals</li>
+						  <li>Configure site map and <span class="bold">information architecture </span> for existing products to match user expectations</li>
+                          <li>Designing to meet both the <span class="bold">user and business goals</span></li>
                       </ul>
               </div>
-              <div class="col-xs-12 col-md-4 skills">
+			  <div class="clearfix"></div>
+            <div class="col-xs-12 col-md-6">
+              <h5 class="overview_titles">Project Structure</h5>
+                  <ul>
+                      <li><span class="bold">2-week </span> design sprint</li> 
+                      <li>Sole UX Designer</li>
+                  </ul>
+            </div>
+		
+              <div class="col-xs-12 col-md-6 skills">
                   <h5 class="overview_titles">Demonstrated Skills</h5>
                       <ul>
                           <li>Interactive prototyping with Sketch and Invision</li>
-                          <li>Competitive anlaysis</li>
+                          <li><span class="bold">Competitive anlaysis</span></li>
                           <li>User research and affinity maps</li>
-                          <li>Card sorting</li>
-                          <li>Storyboard and user flow</li>
-                          <li>Site map</li>
+						  <li>Personas and storyboard</li>
+						  <li>User flow</li>
+                          <li><span class="bold">Card sorting</span></li>
+						  <li><span class="bold">Site map</span></li>
                           <li>Usability testing</li>
                           <li>Responsive design</li>
                       </ul>
@@ -120,12 +138,12 @@
           
           
       </div>
-      <!--Planning and Process-->
       
-      
-      <div id="planning_process" class="container cd-section">
+	  <!--Planning and Process-->
+      <div id="planning_process" class="container">
 
-      <h4 class="section_title"><span>Planning &amp; Process </span></h4>
+	<div id="research" class="cd-section">
+      <h4 class="section_title"><span>Research &amp; Discovery </span></h4>
       <br>
           
       <div class="row">
@@ -156,11 +174,13 @@
           </div>
           
             <div class="col-xs-12 col-md-6">
-                <a href="img/beachgrass/Screen%20Shot%202016-11-05%20at%204.24.42%20PM-min.png" data-toggle="lightbox">
+                <a href="img/beachgrass/Screen%20Shot%202016-11-05%20at%204.24.42%20PM-min.png" class="test-popup-link" title="Screenshot of original Beach Grass homepage">
                     <img src="img/beachgrass/Screen%20Shot%202016-11-05%20at%204.24.42%20PM-min.png" class="img-fluid m-x-auto d-block">
                 </a>
             </div>
-          
+		  
+		  <div class="clearfix m-y-2">	</div>
+          	
           <div class="col-xs-12 col-md-6">
         
               <p>
@@ -168,8 +188,10 @@
               </p>
           </div>
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/prod%20tab.png" data-toggle="lightbox"><img src="img/beachgrass/prod%20tab.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/prod%20tab.png" class="test-popup-link" title="Screenshot of dropdown navigation from Products category on original Beach Grass site"><img src="img/beachgrass/prod%20tab.png" class="img-fluid m-x-auto d-block"> </a>
           </div>
+		  
+		  <div class="clearfix m-y-2">	</div>
           
           <div class="col-xs-12 col-md-6">
             <p>      
@@ -178,7 +200,7 @@
           </div>
           
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/prod%20list%202.jpg" data-toggle="lightbox"><img src="img/beachgrass/prod%20list%202.jpg" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/prod%20list%202.jpg" class="test-popup-link" title="Screenshot of Jewelry and Accessories product listings on original Beach Grass site"><img src="img/beachgrass/prod%20list%202.jpg" class="img-fluid m-x-auto d-block"></a>
           </div>
           
           <div class="col-xs-12">
@@ -194,29 +216,25 @@
           </div>
           
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/comparison%20table.png" data-toggle="lightbox"><img src="img/beachgrass/comparison%20table.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/comparison%20table.png" class="test-popup-link" title="Competitive analysis: trends"><img src="img/beachgrass/comparison%20table.png" class="img-fluid m-x-auto d-block"> </a>
           </div>
           
           
           <div class="col-xs-12 col-md-6">
-              <p> I looked at 6 other stores. I chose four online ecommerce stores and two boutique gift shops for comparison. The large retailers were uncommongoods.com, fab.com, personalcreations.com, etsy.com, and the small boutique stores were Gifted and Olives &amp; Grace. I compared in detail how each site presented their homepages, product listings, and product view pages. I then pulled this information out in trends as displayed in the table.</p>
+              <p> I looked at 6 other stores. I chose four online ecommerce stores and two boutique gift shops for comparison. The large retailers were <a href="http://www.uncommongoods.com" target="UncommonGoods">UncommonGoods</a>, <a href="http://fab.com" target="Fab">Fab</a>, <a href="http://personalcreations.com" target="personalcreations">Personal Creations</a>, <a href="http://etsy.com" target="Etsy">Etsy</a>, and the small boutique stores were <a href="http://giftedboston.com" target="gifted">Gifted</a> and <a href="http://olivesandgrace.com" target="olivesgrace">Olives &amp; Grace</a>. I compared in detail how each site presented their homepages, product listings, and product view pages. I then pulled this information out in trends as displayed in the table.</p>
           </div>
           
-          <div class="col-xs-12">
-            <br>
-          </div>
+          <div class="clearfix m-y-2">	</div>
           
            <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/comparison%20layouts.png" data-toggle="lightbox"><img src="img/beachgrass/comparison%20layouts.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/comparison%20layouts.png" class="test-popup-link" title="Comparison of compeititors product view layouts"><img src="img/beachgrass/comparison%20layouts.png" class="img-fluid m-x-auto d-block"> </a>
           </div>
           
           <div class="col-xs-12 col-md-6">
             <p>To further explore the competitors, I then sketched the layouts of each page, highlighting for myself where certain features were located or missing. These features included search bar, user ratings, and suggested products.</p>
           </div>
           
-		  <div class="col-xs-12">
-		  	<br>
-		  </div>
+		  <div class="clearfix m-y-2">	</div>
     
 		  
 		   <div class="col-xs-12">
@@ -226,7 +244,7 @@
 		  </div>
 		  
 		   <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/hands-affinity-map-min-2.jpg" data-toggle="lightbox"><img src="img/beachgrass/hands-affinity-map-min-2.jpg" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/hands-affinity-map-min-2.jpg" class="test-popup-link" title="Affinity map"><img src="img/beachgrass/hands-affinity-map-min-2.jpg" class="img-fluid m-x-auto d-block"> </a>
           </div>
 		  
          
@@ -253,14 +271,17 @@
           
           <div class="col-xs-12">
               <br>  
-              <p> Using the research from my affinity map, I created two unique personas, Becky "The Bad Gift-Giver" and Mary-Ann "A tourist traveling with her family." I also sketched out a  corresponding <a href="img/beachgrass/storyboard.jpg" data-toggle="lightbox">storyboard </a> for Mary-Ann, one of the personas. </p> 
+              <p> Using the research from my affinity map, I created two unique personas, Becky "The Bad Gift-Giver" and Mary-Ann "A tourist traveling with her family." I also sketched out a corresponding storyboard for Mary-Ann. </p> 
 		  </div>
 		  
 		    <div class="col-md-6 col-xs-12 big1">
-                <a href="img/beachgrass/becky.png" data-toggle="lightbox"><img src="img/beachgrass/becky.png" class="img-fluid m-x-auto d-block"> </a>
+                <a href="img/beachgrass/becky.png" class="test-popup-link" title="Persona: Becky"><img src="img/beachgrass/becky.png" class="img-fluid m-x-auto d-block"> </a>
 		  </div>
 		  <div class="col-md-6 col-xs-12 big1">
-                <a href="img/beachgrass/mary-ann.png" data-toggle="lightbox"><img src="img/beachgrass/mary-ann.png" class="img-fluid m-x-auto d-block"> </a>
+                <a href="img/beachgrass/mary-ann.png" class="test-popup-link" title="Persona: Mary-Ann"><img src="img/beachgrass/mary-ann.png" class="img-fluid m-x-auto d-block"> </a>
+          </div>
+		  <div class="col-xs-12 big1">
+                <a href="img/beachgrass/storyboard.jpg" class="test-popup-link" title="Mary-Ann Storybard"><img src="img/beachgrass/storyboard.jpg" class="img-fluid m-x-auto d-block"> </a>
           </div>
 		  
 		  <div class="col-xs-12">
@@ -271,33 +292,48 @@
 		
           <div class="col-xs-12 col-md-6">
               <p>
-                  Copying the successful competitors, I wanted the top navigation to have product categories listed out to draw the user in. I performed <span class="bold">open and closed card sorting </span> to define the final site map. Determining where to categorize "Calendars" proved to be the most difficult. Card sorting helped clarify that users considered it to be associated with post cards, reflecting back on their physical experience in bookstores. 
+                  Copying the successful competitors, I wanted the top navigation to have product categories listed out to draw the user in. I wanted the <span class="bold">new navigation to have clear and intuitive groupings</span>, so I performed <span class="bold">open and closed card sorting </span> to define the final site map. Determining where to categorize "Calendars" proved to be the most difficult. Card sorting helped clarify that users considered it to be associated with post cards, reflecting back on their physical experience in bookstores. 
               </p>
           </div>
           
            <div class="col-xs-12 col-md-6">
-                <a href="img/beachgrass/card%20sort-min.jpg" data-toggle="lightbox"><img src="img/beachgrass/card%20sort-min.jpg" class="img-fluid m-x-auto d-block"> </a>
+                <a href="img/beachgrass/card%20sort-min.jpg" class="test-popup-link" title="Card sorting"><img src="img/beachgrass/card%20sort-min.jpg" class="img-fluid m-x-auto d-block"> </a>
           </div>
           
 		  <div class="col-xs-12">
 		  	<h2>
-				|| Site Map 
+				|| Site Map &amp; User Flow
 			</h2>
 		  </div>
           
           <div class="col-xs-12 col-md-6">
                   <p>
-					  With these exercise completed, a newly organized site map was easily arranged. Before jumping into prototypes, I also mapped out the <a href="img/beachgrass/User%20Flow.png" data-toggle="lightbox">user flow. </a></p>
+					  With these exercise completed, a newly organized site map was easily arranged. Before jumping into prototypes, I also mapped out the <a href="img/beachgrass/User%20Flow.png" class="test-popup-link" title="User flow">user flow. </a></p>
           </div>
          
           
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/SiteMap-min.png" data-toggle="lightbox"><img src="img/beachgrass/SiteMap-min.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/SiteMap-min.png" class="test-popup-link" title="Site map"><img src="img/beachgrass/SiteMap-min.png" class="img-fluid m-x-auto d-block"> </a>
           </div>
-           
+		  <div class="clearfix m-y-2">	</div>
+		  <div class="col-xs-12 col-md-6">
+                  <p>
+					  Before jumping into prototypes, I also mapped out the user flow.</p>
+          </div>
+         
+          
+          <div class="col-xs-12 col-md-6">
+              <a href="img/beachgrass/User%20Flow.png" class="test-popup-link" title="User flow"><img src="img/beachgrass/User%20Flow.png" class="img-fluid m-x-auto d-block"> </a>
+          </div>
+      </div>
+  </div>
+	<div id="prototype" class="cd-section">
+			<h4 class="section_title"><span>Ideation, Prototyping, &amp; Testing </span></h4>
+			  <br>
+		<div class="row">
 		  <div class="col-xs-12">
 		  	<h2>
-				|| Rapid Prototyping &amp; Testing 
+				|| Ideation 
 			</h2>
 		  </div>
 		  
@@ -307,15 +343,21 @@
           </div>
           
           <div class="col-xs-12 col-sm-4">
-            <a href="img/beachgrass/PV%20multi.jpg" data-toggle="lightbox"><img src="img/beachgrass/PV%20multi.jpg" class="img-fluid m-x-auto d-block"> </a>
+            <a href="img/beachgrass/PV%20multi.jpg" class="test-popup-link" title="Blocked wireframe layouts comparing multiple options for arranging a product page"><img src="img/beachgrass/PV%20multi.jpg" class="img-fluid m-x-auto d-block"></a>
           </div>
           <div class="col-xs-12 col-sm-4 pic2">
-            <a href="img/beachgrass/PV%20block.jpg" data-toggle="lightbox"><img src="img/beachgrass/PV%20block.jpg" class="img-fluid m-x-auto d-block"> </a>
+            <a href="img/beachgrass/PV%20block.jpg" class="test-popup-link" title="Wireframe sketch of product page "><img src="img/beachgrass/PV%20block.jpg" class="img-fluid m-x-auto d-block"> </a>
           </div>
           <div class="col-xs-12 col-sm-4 pic2">
-            <a href="img/beachgrass/PV%20paper.jpg" data-toggle="lightbox"><img src="img/beachgrass/PV%20paper.jpg" class="img-fluid m-x-auto d-block"> </a>
+            <a href="img/beachgrass/PV%20paper.jpg" class="test-popup-link" title="Detailed sketch of product page"><img src="img/beachgrass/PV%20paper.jpg" class="img-fluid m-x-auto d-block"> </a>
           </div>
           
+			<div class="col-xs-12">
+		  	<h2>
+				|| Rapid Prototyping &amp; Testing 
+			</h2>
+		  </div>
+			
           <div class="col-xs-12 col-lg-10">
               <br>
               <p>After a round of testing the paper prototype, I noticed that the value of the brand was still not coming through clearly to the readers. I added a simple tag line to clarify the purpose of the brand. Additionally my design of the "write a review" page could be improved. <span class="bold">Users wanted a way to quickly scan reviews and compare them</span>, so I added a Pro- Con- section to improve scanability.</p>
@@ -323,27 +365,23 @@
           </div>
           
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/Home%20Page-min.png" data-toggle="lightbox"><img src="img/beachgrass/Home%20Page-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
+              <a href="img/beachgrass/Home%20Page-min.png" class="test-popup-link" title="Medium-fi beach grass homepage"><img src="img/beachgrass/Home%20Page-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
           </div>
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/Rating.jpg" data-toggle="lightbox"><img src="img/beachgrass/Rating.jpg" class="img-fluid m-x-auto d-block imgb"> </a>
+              <a href="img/beachgrass/Rating.jpg" class="test-popup-link" title="Medium-fi Reviews & Rating on product page"><img src="img/beachgrass/Rating.jpg" class="img-fluid m-x-auto d-block imgb"> </a>
           </div>
           
-          <div class="col-xs-12">
-            <br>
-          </div>
+          <div class="clearfix m-y-2">	</div>
           
           <div class="col-xs-12 col-md-6">
               <p>The user testing with the digital product highlighted additional updates to the design. I added faded stars to ratings to add context that the ratings were out of five stars total. I also changed the verbiage on the price filter labels, so that it was distinguished from the language typically used in a sort.</p>
           </div>
           
           <div class="col-xs-12 col-md-6">
-              <a href="img/beachgrass/dig%20delta.png" data-toggle="lightbox"><img src="img/beachgrass/dig%20delta.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/dig%20delta.png" class="test-popup-link" title="Highlighted changes to the digital prototype after usability testing"><img src="img/beachgrass/dig%20delta.png" class="img-fluid m-x-auto d-block"> </a>
           </div>
           
-          <div class="col-xs-12">
-            <br>
-          </div>
+          <div class="clearfix m-y-2">	</div>
           
           <div class="col-xs-12">
               <p>All of these changes were successful when I tested them in my digital prototype with InVision. </p>
@@ -364,17 +402,17 @@
            </div> 
            
             <div class="col-xs-12 big1">
-              <a href="img/beachgrass/mobile1.png" data-toggle="lightbox"><img src="img/beachgrass/mobile1.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/mobile1.png" class="test-popup-link" title="Screenshot of current mobile site, and paper prototype of new home page and navigation"><img src="img/beachgrass/mobile1.png" class="img-fluid m-x-auto d-block"> </a>
               </div>
            <div class="col-xs-12 big1">
                <br>
-              <a href="img/beachgrass/mobile2.png" data-toggle="lightbox"><img src="img/beachgrass/mobile2.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/mobile2.png" class="test-popup-link" title="Paper prototype of new product listings and filtering display"><img src="img/beachgrass/mobile2.png" class="img-fluid m-x-auto d-block"> </a>
               </div>
            <div class="col-xs-12 big1">
                <br>
-              <a href="img/beachgrass/mobile3.png" data-toggle="lightbox"><img src="img/beachgrass/mobile3.png" class="img-fluid m-x-auto d-block"> </a>
+              <a href="img/beachgrass/mobile3.png" class="test-popup-link" title="Paper prototype of product view and Reviews & Rating"><img src="img/beachgrass/mobile3.png" class="img-fluid m-x-auto d-block"> </a>
 		  </div>
-		  
+		</div>  
       </div>
           
       </div>
@@ -402,14 +440,14 @@
 					  The medium fidelity prototype proved to meet the user and business goals. It clarified the purpose of the brand, highlighted categories on the nav bar and on the homepage, included a search bar, and had functioning sort/filter. In addition, there was a tested Reviews &amp; Rating section and a Suggested For You category. </p>
 			  </div>
           
-			  <div class="col-xs-12 col-sm-4">
-					  <a href="img/beachgrass/Home%20Page-min.png" data-toggle="lightbox"><img src="img/beachgrass/Home%20Page-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
+			  <div class="col-xs-12 col-sm-6 col-lg-4">
+					  <a href="img/beachgrass/Home%20Page-min.png" class="test-popup-link" title="Redesigned homepage"><img src="img/beachgrass/Home%20Page-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
 			  </div>
-              <div class="col-xs-12 col-sm-4">
-				  <a href="img/beachgrass/Product%20Listings%20Copy-min.png" data-toggle="lightbox"><img src="img/beachgrass/Product%20Listings%20Copy-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+				  <a href="img/beachgrass/Product%20Listings%20Copy-min.png" class="test-popup-link" title="Redesigned product listings"><img src="img/beachgrass/Product%20Listings%20Copy-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
 			  </div>
-              <div class="col-xs-12 col-sm-4">
-				  <a href="img/beachgrass/Write%20Rating-min.png" data-toggle="lightbox"><img src="img/beachgrass/Write%20Rating-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
+              <div class="col-xs-12 col-lg-4">
+				  <a href="img/beachgrass/Write%20Rating-min.png" class="test-popup-link" title="Redesigned product view"><img src="img/beachgrass/Write%20Rating-min.png" class="img-fluid m-x-auto d-block imgb"> </a>
               </div>
           
           </div>
@@ -437,8 +475,13 @@
       <br>
       <br>
 	  
+	  
+	  <div class="viewproj">
+	  	<a href="index.html#Portfolio" class="up">View more projects <span class="uparrow">&#8594; </span></a>
+	  </div>
+	  
 	  <div class="up_sec">
-		  <a href="#top"><h5 class="up"><span class="uparrow">&#8963;</span> Return to top</h5></a> 
+		  <a href="#top"><h5 class="up">Return to top <span class="uparrow">&#8593;</span> </h5></a> 
 		</div>
     
       <!--Footer-->
@@ -475,13 +518,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
    
-    <script src="JS/ekko-lightbox.min.js"></script>
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-        });
-      </script>
+    <!-- Magnific Popup core JS file -->
+<script src="JS/jquery.magnific-popup.min.js"></script>
+	  <script>$(document).ready(function() {
+		  $('.image-link').magnificPopup({type:'image'});
+		  }); </script>
+	  <script>$('.test-popup-link').magnificPopup({
+		  type: 'image',
+		  mainClass: 'mfp-img-mobile',
+		  
+		  // other options
+		  });</script>
+	  
+	  <!--vertical nav -->
       <script src="JS/main.js"></script> <!-- Resource jQuery -->
       
   </body>
