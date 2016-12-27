@@ -66,7 +66,7 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
 
 
 .jsize {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/cards/Optimized-sketching%20edited%203.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/sharon-looking-down-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,10 +81,27 @@ a.nav-link.toplinks.active:hover, a.nav-link.toplinks.active:focus{
     color: white;
 }
 
+.jumbotext1 {
+	text-align: left;
+    vertical-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+	font-size: 3.5rem;
+}
+.jumbotext3 {
+	text-align: left;
+    vertical-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+	font-size: 3rem;
+}
+
+
 .cta, .cta:visited {
-    font-size: 2rem;
+	margin-left: 0;
+    font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
-    width: 40%;
+    width: 30%;
     padding: 20px 0;
     margin-top: 50px;
     min-width: 300px;

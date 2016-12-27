@@ -60,10 +60,21 @@
 	.jumbotext {
 		font-size: 2rem;
 	}
+	
+	.jumbotext1 {
+		font-size: 2rem;
+		text-align: center;
+	}
+	.jumbotext3 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
 
 	
     .cta {
-        font-size: 150%;    
+        font-size: 1.5rem; 
+		margin-left: auto;
+		margin-right: auto;
     }
     
     .card {
