@@ -56,6 +56,15 @@
     padding-bottom: 12%;
 }
 
+.jsize7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Instagift/presents-orig-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 12%;
+}
+
 #downarrow {
     color: white;
     text-align: center;
